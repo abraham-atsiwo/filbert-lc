@@ -32,12 +32,16 @@ The dataset includes both real financial data and synthetic data generated to re
 
 ```python
 
-from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
+from transformers import (BertTokenizer, 
+                          BertForSequenceClassification, 
+                          Trainer, 
+                          TrainingArguments)
 import torch
 
+model_name = ""
 # Load the BERT tokenizer and model
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=3)  
+tokenizer = BertTokenizer.from_pretrained(model_name)
+model = BertForSequenceClassification.from_pretrained(model_name, num_labels=3)  
 
 # An example stock
 texts = ["This stock is performing well!", "The market is crashing."]
