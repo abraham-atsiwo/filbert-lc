@@ -29,3 +29,19 @@ The dataset includes both real financial data and synthetic data generated to re
 ### Model Weights
 
 - Download Model Weights from HuggingFace: [Link Text](https://link-to-your-file.com)
+
+```python
+
+from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
+import torch
+
+# Load the BERT tokenizer and model
+tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=3)  
+
+# An example stock
+texts = ["This stock is performing well!", "The market is crashing."]
+inputs = tokenizer(texts, padding=True, truncation=True, return_tensors="pt")
+outputs = model(**inputs)
+print(outputs)
+```
