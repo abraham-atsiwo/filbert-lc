@@ -28,4 +28,4 @@ The dataset includes both real financial data and synthetic data generated to re
 
 ### Model Weights
 
-- Download Model Weights from HuggingFace: 
+- Download Model Weights from HuggingFace: [Link Text](https://link-to-your-file.com)
