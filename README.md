@@ -18,3 +18,14 @@ This project involves fine-tuning a BERT (Bidirectional Encoder Representations 
 
 The dataset includes both real financial data and synthetic data generated to represent possible real-world scenarios. Synthetic data aims to address domain-specific challenges, such as limited training data in financial sentiment contexts.
 
+
+### License
+
+- This project is licensed under the MIT License. See the LICENSE file for details.
+
+- This template should fit well for your project. Let me know if you’d like more customization!
+
+
+### Model Weights
+
+- Download Model Weights from HuggingFace: 
