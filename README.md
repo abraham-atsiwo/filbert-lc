@@ -6,8 +6,11 @@ This project involves fine-tuning a BERT (Bidirectional Encoder Representations 
 ### Features
 
 •	Pre-trained BERT fine-tuning tailored for financial sentiment analysis.
+
 •	Synthetic data generation to augment real data, enhancing model performance.
+
 •	Sentiment classification (e.g., positive, negative, neutral) specific to finance-related text.
+
 •	Evaluation metrics to assess model accuracy and robustness in real-world financial sentiment analysis.
 
 
