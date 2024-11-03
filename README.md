@@ -1,1 +1,1 @@
-### Finbert-LC: Finetuned BERT model on Real and Synthetic Generated Data.
+### Finbert-LC: Finetuned BERT model on Real and Synthetic Generated Data for Financial Sentiment Analysis
