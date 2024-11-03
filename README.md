@@ -14,3 +14,7 @@ This project involves fine-tuning a BERT (Bidirectional Encoder Representations 
 •	Evaluation metrics to assess model accuracy and robustness in real-world financial sentiment analysis.
 
 
+### Data
+
+The dataset includes both real financial data and synthetic data generated to represent possible real-world scenarios. Synthetic data aims to address domain-specific challenges, such as limited training data in financial sentiment contexts.
+
