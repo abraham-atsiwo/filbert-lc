@@ -33,9 +33,8 @@ The dataset includes both real financial data and synthetic data generated to re
 ```python
 
 from transformers import (BertTokenizer, 
-                          BertForSequenceClassification, 
-                          Trainer, 
-                          TrainingArguments)
+                          BertForSequenceClassification
+)
 import torch
 
 model_name = ""
