@@ -1,1 +1,1 @@
-### FinBERT LC: FINANCIAL SENTIMENT ANALYSIS THAT CAPTURES LONG CONTEXT.
+### Finbert-LC: Finetuned BERT model on Real and Synthetic Generated Data.
