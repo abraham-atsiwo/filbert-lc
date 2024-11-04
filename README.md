@@ -16,7 +16,7 @@ This model can be further finetuned for financial fask because of the rich finan
 
 ### Model Weights
 
-- Download Model Weights from HuggingFace: [Link Text](https://huggingface.co/ab30atsiwo/nsp-finetuned-bloombery/tree/main)
+- Download Model Weights from HuggingFace: [Download Weight](https://huggingface.co/ab30atsiwo/nsp-finetuned-bloombery/tree/main)
 
 ```python
 # Use a pipeline as a high-level helper
@@ -60,7 +60,7 @@ The dataset includes both real financial data and synthetic data generated to re
 
 ### Model Weights
 
-- Download Model Weights from HuggingFace: [Link Text](https://huggingface.co/ab30atsiwo/finbert-gpt-allagree/tree/main)
+- Download Model Weights from HuggingFace: [Download Weight](https://huggingface.co/ab30atsiwo/finbert-gpt-allagree/tree/main)
 
 ```python
 
