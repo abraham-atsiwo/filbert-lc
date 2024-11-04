@@ -16,7 +16,7 @@ This model can be further finetuned for financial fask because of the rich finan
 
 ### Model Weights
 
-- Download Model Weights from HuggingFace: [Download Weight for Next Sentence Prediction](https://huggingface.co/ab30atsiwo/nsp-finetuned-bloombery/tree/main)
+- Download Model Weights from HuggingFace: [Download Weight for Sentiment Analysis](https://huggingface.co/ab30atsiwo/nsp-finetuned-bloombery/tree/main)
 
 ```python
 # Use a pipeline as a high-level helper
