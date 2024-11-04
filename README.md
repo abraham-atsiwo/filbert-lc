@@ -28,7 +28,7 @@ The dataset includes both real financial data and synthetic data generated to re
 
 ### Model Weights
 
-- Download Model Weights from HuggingFace: [Link Text](https://link-to-your-file.com)
+- Download Model Weights from HuggingFace: [Link Text](https://huggingface.co/ab30atsiwo/finbert-gpt/tree/main)
 
 ```python
 
@@ -37,7 +37,7 @@ from transformers import (BertTokenizer,
                         )
 import torch
 
-model_name = ""
+model_name = "ab30atsiwo/finbert-gpt"
 # Load the BERT tokenizer and model
 tokenizer = BertTokenizer.from_pretrained(model_name)
 model = BertForSequenceClassification.from_pretrained(model_name, num_labels=3)  
